@@ -1,0 +1,1697 @@
+{
+	"info": {
+		"_postman_id": "afc5e054-d9ab-46fa-b8dd-4b47260605f9",
+		"name": "bookingmovie",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Quan Ly Nguoi Dung",
+			"item": [
+				{
+					"name": "Dang Ky",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "taiKhoan",
+									"value": "tuanloc99",
+									"type": "default"
+								},
+								{
+									"key": "email",
+									"value": "tuanloc99@gmail.com",
+									"type": "default"
+								},
+								{
+									"key": "hoTen",
+									"value": "Loc99",
+									"type": "default"
+								},
+								{
+									"key": "soDt",
+									"value": "123456",
+									"type": "default"
+								},
+								{
+									"key": "matKhau",
+									"value": "123456",
+									"type": "default"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{domain}}/quan-ly-nguoi-dung/dang-nhap"
+					},
+					"response": []
+				},
+				{
+					"name": "Dang Nhap",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "taiKhoan",
+									"value": "tuanloc",
+									"type": "default"
+								},
+								{
+									"key": "email",
+									"value": "loc@gmail.com",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "hoTen",
+									"value": "Tuan Loc",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "soDt",
+									"value": "1234567",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "matKhau",
+									"value": "123456",
+									"type": "default"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{domain}}/quan-ly-nguoi-dung/dang-nhap"
+					},
+					"response": []
+				},
+				{
+					"name": "Them Nguoi Dung",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6ImxvY0BnbWFpbC5jb20iLCJtYUxvYWlOZ3VvaUR1bmciOiJRdWFuVHJpIiwiaWF0IjoxNjc5NDAwMjExLCJleHAiOjE3MTA5NTc4MTF9.iJU6tCUPDfPIzzM-KoggUvfdzISfEbV-Vgc8NfYObqA",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "taiKhoan",
+									"value": "tuanloc05",
+									"type": "default"
+								},
+								{
+									"key": "email",
+									"value": "tuanloc05@gmail.com",
+									"type": "default"
+								},
+								{
+									"key": "hoTen",
+									"value": "Loc 05",
+									"type": "default"
+								},
+								{
+									"key": "soDt",
+									"value": "1234567",
+									"type": "default"
+								},
+								{
+									"key": "matKhau",
+									"value": "123456",
+									"type": "default"
+								},
+								{
+									"key": "loaiNguoiDung",
+									"value": "QuanTri",
+									"type": "default"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{domain}}/quan-ly-nguoi-dung/them-nguoi-dung"
+					},
+					"response": []
+				},
+				{
+					"name": "Cap Nhat Thong Tin Nguoi Dung",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6InR1YW5sb2NAZ21haWwuY29tIiwibWFMb2FpTmd1b2lEdW5nIjoiUXVhblRyaSIsImlhdCI6MTY4MDY5OTc5MiwiZXhwIjoxNzEyMjU3MzkyfQ.0lkMkojL9N8eAyUNzNo0zUEz7-qbTVIvRDtxP9SbJpc"
+							}
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6ImxvY0BnbWFpbC5jb20iLCJtYUxvYWlOZ3VvaUR1bmciOiJRdWFuVHJpIiwiaWF0IjoxNjc5NDAwMjExLCJleHAiOjE3MTA5NTc4MTF9.iJU6tCUPDfPIzzM-KoggUvfdzISfEbV-Vgc8NfYObqA",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "taiKhoan",
+									"value": "locvo01",
+									"type": "default"
+								},
+								{
+									"key": "hoTen",
+									"value": "Lộc Võ 01",
+									"type": "default"
+								},
+								{
+									"key": "email",
+									"value": "locvo01@gmail.com",
+									"type": "default"
+								},
+								{
+									"key": "soDt",
+									"value": "123456",
+									"type": "default"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{domain}}/quan-ly-nguoi-dung/cap-nhat-thong-tin-nguoi-dung"
+					},
+					"response": []
+				},
+				{
+					"name": "Cap Nhat Thong Tin Nguoi Dung Admin",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6InR1YW5sb2NAZ21haWwuY29tIiwibWFMb2FpTmd1b2lEdW5nIjoiUXVhblRyaSIsImlhdCI6MTY4MDY5OTc5MiwiZXhwIjoxNzEyMjU3MzkyfQ.0lkMkojL9N8eAyUNzNo0zUEz7-qbTVIvRDtxP9SbJpc"
+							}
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6ImxvY0BnbWFpbC5jb20iLCJtYUxvYWlOZ3VvaUR1bmciOiJRdWFuVHJpIiwiaWF0IjoxNjc5NDAwMjExLCJleHAiOjE3MTA5NTc4MTF9.iJU6tCUPDfPIzzM-KoggUvfdzISfEbV-Vgc8NfYObqA",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "taiKhoan",
+									"value": "locvo",
+									"type": "default"
+								},
+								{
+									"key": "hoTen",
+									"value": "Lộc Võ",
+									"type": "default"
+								},
+								{
+									"key": "email",
+									"value": "locvo@gmail.com",
+									"type": "default"
+								},
+								{
+									"key": "soDt",
+									"value": "123",
+									"type": "default"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{domain}}/quan-ly-nguoi-dung/cap-nhat-thong-tin-nguoi-dung"
+					},
+					"response": []
+				},
+				{
+					"name": "Cap Nhat Thong Tin Nguoi Dung Admin Copy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6InR1YW5sb2NAZ21haWwuY29tIiwibWFMb2FpTmd1b2lEdW5nIjoiUXVhblRyaSIsImlhdCI6MTY4MDY5OTc5MiwiZXhwIjoxNzEyMjU3MzkyfQ.0lkMkojL9N8eAyUNzNo0zUEz7-qbTVIvRDtxP9SbJpc"
+							}
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6ImxvY0BnbWFpbC5jb20iLCJtYUxvYWlOZ3VvaUR1bmciOiJRdWFuVHJpIiwiaWF0IjoxNjc5NDAwMjExLCJleHAiOjE3MTA5NTc4MTF9.iJU6tCUPDfPIzzM-KoggUvfdzISfEbV-Vgc8NfYObqA",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "taiKhoan",
+									"value": "tuanloc05",
+									"type": "default"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{domain}}/quan-ly-nguoi-dung/xoa-nguoi-dung"
+					},
+					"response": []
+				},
+				{
+					"name": "Lay Danh Sach Nguoi Dung",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6ImxvY0BnbWFpbC5jb20iLCJtYUxvYWlOZ3VvaUR1bmciOiJRdWFuVHJpIiwiaWF0IjoxNjc5NDAwMjExLCJleHAiOjE3MTA5NTc4MTF9.iJU6tCUPDfPIzzM-KoggUvfdzISfEbV-Vgc8NfYObqA",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "taiKhoan",
+									"value": "tuanloc",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "email",
+									"value": "loc@gmail.com",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "hoTen",
+									"value": "Tuan Loc",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "soDt",
+									"value": "1234567",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "matKhau",
+									"value": "123456",
+									"type": "default",
+									"disabled": true
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/quan-ly-nguoi-dung/lay-danh-sach-nguoi-dung?tuKhoa=loc99",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quan-ly-nguoi-dung",
+								"lay-danh-sach-nguoi-dung"
+							],
+							"query": [
+								{
+									"key": "tuKhoa",
+									"value": "loc99"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Lay Danh Sach Loai Nguoi Dung",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6ImxvY0BnbWFpbC5jb20iLCJtYUxvYWlOZ3VvaUR1bmciOiJRdWFuVHJpIiwiaWF0IjoxNjc5NDAwMjExLCJleHAiOjE3MTA5NTc4MTF9.iJU6tCUPDfPIzzM-KoggUvfdzISfEbV-Vgc8NfYObqA",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "taiKhoan",
+									"value": "tuanloc",
+									"type": "default"
+								},
+								{
+									"key": "email",
+									"value": "loc@gmail.com",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "hoTen",
+									"value": "Tuan Loc",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "soDt",
+									"value": "1234567",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "matKhau",
+									"value": "123456",
+									"type": "default"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{domain}}/quan-ly-nguoi-dung/lay-danh-sach-loai-nguoi-dung"
+					},
+					"response": []
+				},
+				{
+					"name": "Get User",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6ImxvY0BnbWFpbC5jb20iLCJtYUxvYWlOZ3VvaUR1bmciOiJRdWFuVHJpIiwiaWF0IjoxNjc5NDAwMjExLCJleHAiOjE3MTA5NTc4MTF9.iJU6tCUPDfPIzzM-KoggUvfdzISfEbV-Vgc8NfYObqA",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "taiKhoan",
+									"value": "tuanloc",
+									"type": "default"
+								},
+								{
+									"key": "email",
+									"value": "loc@gmail.com",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "hoTen",
+									"value": "Tuan Loc",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "soDt",
+									"value": "1234567",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "matKhau",
+									"value": "123456",
+									"type": "default"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/quan-ly-nguoi-dung/lay-danh-sach-nguoi-dung?tuKhoa=c",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quan-ly-nguoi-dung",
+								"lay-danh-sach-nguoi-dung"
+							],
+							"query": [
+								{
+									"key": "tuKhoa",
+									"value": "c"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Tim Kiem Nguoi Dung",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6ImxvY0BnbWFpbC5jb20iLCJtYUxvYWlOZ3VvaUR1bmciOiJRdWFuVHJpIiwiaWF0IjoxNjc5NDAwMjExLCJleHAiOjE3MTA5NTc4MTF9.iJU6tCUPDfPIzzM-KoggUvfdzISfEbV-Vgc8NfYObqA",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "taiKhoan",
+									"value": "tuanloc",
+									"type": "default"
+								},
+								{
+									"key": "email",
+									"value": "loc@gmail.com",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "hoTen",
+									"value": "Tuan Loc",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "soDt",
+									"value": "1234567",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "matKhau",
+									"value": "123456",
+									"type": "default"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/quan-ly-nguoi-dung/tim-kiem-nguoi-dung?tuKhoa=Tuan",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quan-ly-nguoi-dung",
+								"tim-kiem-nguoi-dung"
+							],
+							"query": [
+								{
+									"key": "tuKhoa",
+									"value": "Tuan"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Lay Danh Sach Nguoi Dung Phan Trang",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6ImxvY0BnbWFpbC5jb20iLCJtYUxvYWlOZ3VvaUR1bmciOiJRdWFuVHJpIiwiaWF0IjoxNjc5NDAwMjExLCJleHAiOjE3MTA5NTc4MTF9.iJU6tCUPDfPIzzM-KoggUvfdzISfEbV-Vgc8NfYObqA",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "taiKhoan",
+									"value": "tuanloc",
+									"type": "default"
+								},
+								{
+									"key": "email",
+									"value": "loc@gmail.com",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "hoTen",
+									"value": "Tuan Loc",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "soDt",
+									"value": "1234567",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "matKhau",
+									"value": "123456",
+									"type": "default"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/quan-ly-nguoi-dung/lay-danh-sach-nguoi-dung-phan-trang?soTrang=1&soPhanTuTrenTrang=2&tuKhoa=loc99",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quan-ly-nguoi-dung",
+								"lay-danh-sach-nguoi-dung-phan-trang"
+							],
+							"query": [
+								{
+									"key": "soTrang",
+									"value": "1"
+								},
+								{
+									"key": "soPhanTuTrenTrang",
+									"value": "2"
+								},
+								{
+									"key": "tuKhoa",
+									"value": "loc99"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Tim Kiem Nguoi Dung Phan Trang",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6ImxvY0BnbWFpbC5jb20iLCJtYUxvYWlOZ3VvaUR1bmciOiJRdWFuVHJpIiwiaWF0IjoxNjc5NDAwMjExLCJleHAiOjE3MTA5NTc4MTF9.iJU6tCUPDfPIzzM-KoggUvfdzISfEbV-Vgc8NfYObqA",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "taiKhoan",
+									"value": "tuanloc",
+									"type": "default"
+								},
+								{
+									"key": "email",
+									"value": "loc@gmail.com",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "hoTen",
+									"value": "Tuan Loc",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "soDt",
+									"value": "1234567",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "matKhau",
+									"value": "123456",
+									"type": "default"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/quan-ly-nguoi-dung/tim-kiem-nguoi-dung-phan-trang?soTrang=1&soPhanTuTrenTrang=2&tuKhoa=loc",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"quan-ly-nguoi-dung",
+								"tim-kiem-nguoi-dung-phan-trang"
+							],
+							"query": [
+								{
+									"key": "soTrang",
+									"value": "1"
+								},
+								{
+									"key": "soPhanTuTrenTrang",
+									"value": "2"
+								},
+								{
+									"key": "tuKhoa",
+									"value": "loc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Lay Thong Tin Tai Khoan",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6InR1YW5sb2NAZ21haWwuY29tIiwibWFMb2FpTmd1b2lEdW5nIjoiUXVhblRyaSIsImlhdCI6MTY4MDY5NzAzMCwiZXhwIjoxNzEyMjU0NjMwfQ.I8FuCy0c1vgMQYM4IkFVba7CZA95vVVscKY0Ho2WyxQ"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/api/quan-ly-nguoi-dung/thong-tin-tai-khoan"
+					},
+					"response": []
+				},
+				{
+					"name": "Lay Thong Tin Nguoi Dung",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6InR1YW5sb2NAZ21haWwuY29tIiwibWFMb2FpTmd1b2lEdW5nIjoiUXVhblRyaSIsImlhdCI6MTY4MDY5NzAzMCwiZXhwIjoxNzEyMjU0NjMwfQ.I8FuCy0c1vgMQYM4IkFVba7CZA95vVVscKY0Ho2WyxQ"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/quan-ly-nguoi-dung/lay-thong-tin-nguoi-dung?taiKhoan=tuanloc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"quan-ly-nguoi-dung",
+								"lay-thong-tin-nguoi-dung"
+							],
+							"query": [
+								{
+									"key": "taiKhoan",
+									"value": "tuanloc"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Quan Ly Rap",
+			"item": [
+				{
+					"name": "Them He Thong Rap",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6InR1YW5sb2NAZ21haWwuY29tIiwibWFMb2FpTmd1b2lEdW5nIjoiUXVhblRyaSIsImlhdCI6MTY4MDYwODk2NCwiZXhwIjoxNzEyMTY2NTY0fQ.mGr0jcl_xDHT9AXWsG4UMhN0sVqJd-C4uXsnWPH1IhU"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/api/quan-ly-rap/them-cum-rap"
+					},
+					"response": []
+				},
+				{
+					"name": "Them Cum Rap",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6InR1YW5sb2NAZ21haWwuY29tIiwibWFMb2FpTmd1b2lEdW5nIjoiUXVhblRyaSIsImlhdCI6MTY4MDYwODk2NCwiZXhwIjoxNzEyMTY2NTY0fQ.mGr0jcl_xDHT9AXWsG4UMhN0sVqJd-C4uXsnWPH1IhU"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "maCumRap",
+									"value": "cgv-aeon-binh-tan",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "tenCumRap",
+									"value": "CGV - Aeon Tân Phú",
+									"type": "default"
+								},
+								{
+									"key": "diaChi",
+									"value": "30 Bờ Bao Tân Thắng, Sơn Kỳ, Tân Phú",
+									"type": "default"
+								},
+								{
+									"key": "maHeThongRap",
+									"value": "CGV",
+									"type": "default"
+								}
+							]
+						},
+						"url": "http://localhost:8080/api/quan-ly-rap/them-cum-rap"
+					},
+					"response": []
+				},
+				{
+					"name": "Them Rap Phim",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6InR1YW5sb2NAZ21haWwuY29tIiwibWFMb2FpTmd1b2lEdW5nIjoiUXVhblRyaSIsImlhdCI6MTY4MDYwODk2NCwiZXhwIjoxNzEyMTY2NTY0fQ.mGr0jcl_xDHT9AXWsG4UMhN0sVqJd-C4uXsnWPH1IhU"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "maCumRap",
+									"value": "5",
+									"type": "default"
+								},
+								{
+									"key": "tenRap",
+									"value": "Rạp 5",
+									"type": "default"
+								}
+							]
+						},
+						"url": "http://localhost:8080/api/quan-ly-rap/them-rap-phim"
+					},
+					"response": []
+				},
+				{
+					"name": "Lay Thong Tin He Thong Rap",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6InR1YW5sb2NAZ21haWwuY29tIiwibWFMb2FpTmd1b2lEdW5nIjoiUXVhblRyaSIsImlhdCI6MTY4MDYwODk2NCwiZXhwIjoxNzEyMTY2NTY0fQ.mGr0jcl_xDHT9AXWsG4UMhN0sVqJd-C4uXsnWPH1IhU"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "maCumRap",
+									"value": "cgv-aeon-binh-tan",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "tenCumRap",
+									"value": "CGV - Aeon Tân Phú",
+									"type": "default"
+								},
+								{
+									"key": "diaChi",
+									"value": "30 Bờ Bao Tân Thắng, Sơn Kỳ, Tân Phú",
+									"type": "default"
+								},
+								{
+									"key": "maHeThongRap",
+									"value": "CGV",
+									"type": "default"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/quan-ly-rap/lay-thong-tin-he-thong-rap",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"quan-ly-rap",
+								"lay-thong-tin-he-thong-rap"
+							],
+							"query": [
+								{
+									"key": "maHeThongRap",
+									"value": "C",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Lay Thong Tin Cum Rap Theo He Thong",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6InR1YW5sb2NAZ21haWwuY29tIiwibWFMb2FpTmd1b2lEdW5nIjoiUXVhblRyaSIsImlhdCI6MTY4MDYwODk2NCwiZXhwIjoxNzEyMTY2NTY0fQ.mGr0jcl_xDHT9AXWsG4UMhN0sVqJd-C4uXsnWPH1IhU"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/Admin/Documents/Dev/project/bookingmovie/img/bhd-star-cineplex.png"
+								},
+								{
+									"key": "maHeThongRap",
+									"value": "BHDStar",
+									"type": "default"
+								},
+								{
+									"key": "tenHeThongRap",
+									"value": "BHD Star Cineplex",
+									"type": "default"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/quan-ly-rap/lay-thong-tin-cum-rap-theo-he-thong?maHeThongRap=CGV",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"quan-ly-rap",
+								"lay-thong-tin-cum-rap-theo-he-thong"
+							],
+							"query": [
+								{
+									"key": "maHeThongRap",
+									"value": "CGV"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Lay Thong Tin Lich Chieu Phim",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6InR1YW5sb2NAZ21haWwuY29tIiwibWFMb2FpTmd1b2lEdW5nIjoiUXVhblRyaSIsImlhdCI6MTY4MDYwODk2NCwiZXhwIjoxNzEyMTY2NTY0fQ.mGr0jcl_xDHT9AXWsG4UMhN0sVqJd-C4uXsnWPH1IhU"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/Admin/Documents/Dev/project/bookingmovie/img/bhd-star-cineplex.png"
+								},
+								{
+									"key": "maHeThongRap",
+									"value": "BHDStar",
+									"type": "default"
+								},
+								{
+									"key": "tenHeThongRap",
+									"value": "BHD Star Cineplex",
+									"type": "default"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/quan-ly-rap/lay-thong-tin-lich-chieu-phim?maPhim=2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"quan-ly-rap",
+								"lay-thong-tin-lich-chieu-phim"
+							],
+							"query": [
+								{
+									"key": "maPhim",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Them Ghe",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6InR1YW5sb2NAZ21haWwuY29tIiwibWFMb2FpTmd1b2lEdW5nIjoiUXVhblRyaSIsImlhdCI6MTY4MDY4ODU4NiwiZXhwIjoxNzEyMjQ2MTg2fQ.VbYAayZjOy6KdLyV9lPZueSfJEUbyWcJ9oDFpgjP1pg"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "tenGhe",
+									"value": "Ghế 15",
+									"type": "default"
+								},
+								{
+									"key": "loaiGhe",
+									"value": "Thuong",
+									"type": "default"
+								},
+								{
+									"key": "maRap",
+									"value": "5",
+									"type": "default"
+								}
+							]
+						},
+						"url": "http://localhost:8080/api/quan-ly-dat-ve/them-ghe"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Quan Ly Film",
+			"item": [
+				{
+					"name": "Them Banner",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6InR1YW5sb2NAZ21haWwuY29tIiwibWFMb2FpTmd1b2lEdW5nIjoiUXVhblRyaSIsImlhdCI6MTY4MDY4NTc5NiwiZXhwIjoxNzEyMjQzMzk2fQ.sdslG4Td27WApsPXiAqEPcLthPNFVCkc-_qsk78mZo8"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/Admin/Documents/Dev/project/bookingmovie/img/avatar-banner.jpg"
+								},
+								{
+									"key": "maPhim",
+									"value": "3",
+									"type": "default"
+								}
+							]
+						},
+						"url": "http://localhost:8080/api/quan-ly-phim/them-banner"
+					},
+					"response": []
+				},
+				{
+					"name": "Lay Danh Sach Banner",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6InR1YW5sb2NAZ21haWwuY29tIiwibWFMb2FpTmd1b2lEdW5nIjoiUXVhblRyaSIsImlhdCI6MTY4MDY4NTc5NiwiZXhwIjoxNzEyMjQzMzk2fQ.sdslG4Td27WApsPXiAqEPcLthPNFVCkc-_qsk78mZo8"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/Admin/Documents/Dev/project/bookingmovie/img/avatar-banner.jpg"
+								},
+								{
+									"key": "maPhim",
+									"value": "1",
+									"type": "default"
+								}
+							]
+						},
+						"url": "http://localhost:8080/api/quan-ly-phim/lay-danh-sach-banner"
+					},
+					"response": []
+				},
+				{
+					"name": "Lay Danh Sach Phim",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6InR1YW5sb2NAZ21haWwuY29tIiwibWFMb2FpTmd1b2lEdW5nIjoiUXVhblRyaSIsImlhdCI6MTY4MDY4NTc5NiwiZXhwIjoxNzEyMjQzMzk2fQ.sdslG4Td27WApsPXiAqEPcLthPNFVCkc-_qsk78mZo8"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/Admin/Documents/Dev/project/bookingmovie/img/avatar-banner.jpg"
+								},
+								{
+									"key": "maPhim",
+									"value": "1",
+									"type": "default"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/quan-ly-phim/lay-danh-sach-phim?tenPhim=ava",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"quan-ly-phim",
+								"lay-danh-sach-phim"
+							],
+							"query": [
+								{
+									"key": "tenPhim",
+									"value": "ava"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Lay Danh Sach Phim Phan Trang",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6InR1YW5sb2NAZ21haWwuY29tIiwibWFMb2FpTmd1b2lEdW5nIjoiUXVhblRyaSIsImlhdCI6MTY4MDY4NTc5NiwiZXhwIjoxNzEyMjQzMzk2fQ.sdslG4Td27WApsPXiAqEPcLthPNFVCkc-_qsk78mZo8"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/Admin/Documents/Dev/project/bookingmovie/img/avatar-banner.jpg"
+								},
+								{
+									"key": "maPhim",
+									"value": "1",
+									"type": "default"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/quan-ly-phim/lay-danh-sach-phim-phan-trang?soTrang=1&soPhanTuTrenTrang=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"quan-ly-phim",
+								"lay-danh-sach-phim-phan-trang"
+							],
+							"query": [
+								{
+									"key": "soTrang",
+									"value": "1"
+								},
+								{
+									"key": "soPhanTuTrenTrang",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Them Phim",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6InR1YW5sb2NAZ21haWwuY29tIiwibWFMb2FpTmd1b2lEdW5nIjoiUXVhblRyaSIsImlhdCI6MTY4MDY4NTc5NiwiZXhwIjoxNzEyMjQzMzk2fQ.sdslG4Td27WApsPXiAqEPcLthPNFVCkc-_qsk78mZo8"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/Admin/Documents/Dev/project/bookingmovie/img/-2181-1663929656.jpg"
+								},
+								{
+									"key": "tenPhim",
+									"value": "Avenger",
+									"type": "default"
+								},
+								{
+									"key": "trailer",
+									"value": "https://www.youtube.com/watch?v=gq2xKJXYZ80",
+									"type": "default"
+								},
+								{
+									"key": "moTa",
+									"value": "Avenger",
+									"type": "default"
+								},
+								{
+									"key": "ngayKhoiChieu",
+									"value": "02/12/2022",
+									"type": "default"
+								},
+								{
+									"key": "hot",
+									"value": "true",
+									"type": "default"
+								},
+								{
+									"key": "dangChieu",
+									"value": "true",
+									"type": "default"
+								},
+								{
+									"key": "sapChieu",
+									"value": "false",
+									"type": "default"
+								},
+								{
+									"key": "danhGia",
+									"value": "4",
+									"type": "default"
+								}
+							]
+						},
+						"url": "http://localhost:8080/api/quan-ly-phim/them-phim"
+					},
+					"response": []
+				},
+				{
+					"name": "Cap Nhat Phim",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6InR1YW5sb2NAZ21haWwuY29tIiwibWFMb2FpTmd1b2lEdW5nIjoiUXVhblRyaSIsImlhdCI6MTY4MDY4NTc5NiwiZXhwIjoxNzEyMjQzMzk2fQ.sdslG4Td27WApsPXiAqEPcLthPNFVCkc-_qsk78mZo8"
+							}
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/Admin/Documents/Dev/project/bookingmovie/img/-2181-1663929656.jpg"
+								},
+								{
+									"key": "tenPhim",
+									"value": "Avatar 03",
+									"type": "default"
+								},
+								{
+									"key": "trailer",
+									"value": "https://www.youtube.com/watch?v=gq2xKJXYZ80",
+									"type": "default"
+								},
+								{
+									"key": "moTa",
+									"value": "Avatar hay lắm nha!!!",
+									"type": "default"
+								},
+								{
+									"key": "ngayKhoiChieu",
+									"value": "03/12/2022",
+									"type": "default"
+								},
+								{
+									"key": "hot",
+									"value": "true",
+									"type": "default"
+								},
+								{
+									"key": "dangChieu",
+									"value": "true",
+									"type": "default"
+								},
+								{
+									"key": "sapChieu",
+									"value": "false",
+									"type": "default"
+								},
+								{
+									"key": "danhGia",
+									"value": "4",
+									"type": "default"
+								},
+								{
+									"key": "maPhim",
+									"value": "3",
+									"type": "default"
+								}
+							]
+						},
+						"url": "http://localhost:8080/api/quan-ly-phim/cap-nhat-phim"
+					},
+					"response": []
+				},
+				{
+					"name": "Xoa Phim",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6InR1YW5sb2NAZ21haWwuY29tIiwibWFMb2FpTmd1b2lEdW5nIjoiUXVhblRyaSIsImlhdCI6MTY4MDY4NTc5NiwiZXhwIjoxNzEyMjQzMzk2fQ.sdslG4Td27WApsPXiAqEPcLthPNFVCkc-_qsk78mZo8"
+							}
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/Admin/Documents/Dev/project/bookingmovie/img/-2181-1663929656.jpg"
+								},
+								{
+									"key": "tenPhim",
+									"value": "Avatar 1",
+									"type": "default"
+								},
+								{
+									"key": "trailer",
+									"value": "https://www.youtube.com/watch?v=gq2xKJXYZ80",
+									"type": "default"
+								},
+								{
+									"key": "moTa",
+									"value": "Avatar hay lắm nha!!!",
+									"type": "default"
+								},
+								{
+									"key": "ngayKhoiChieu",
+									"value": "03/12/2022",
+									"type": "default"
+								},
+								{
+									"key": "hot",
+									"value": "true",
+									"type": "default"
+								},
+								{
+									"key": "dangChieu",
+									"value": "true",
+									"type": "default"
+								},
+								{
+									"key": "sapChieu",
+									"value": "false",
+									"type": "default"
+								},
+								{
+									"key": "danhGia",
+									"value": "4",
+									"type": "default"
+								},
+								{
+									"key": "maPhim",
+									"value": "1",
+									"type": "default"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/quan-ly-phim/xoa-phim?maPhim=3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"quan-ly-phim",
+								"xoa-phim"
+							],
+							"query": [
+								{
+									"key": "maPhim",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Xoa Phim Copy",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6InR1YW5sb2NAZ21haWwuY29tIiwibWFMb2FpTmd1b2lEdW5nIjoiUXVhblRyaSIsImlhdCI6MTY4MDY4NTc5NiwiZXhwIjoxNzEyMjQzMzk2fQ.sdslG4Td27WApsPXiAqEPcLthPNFVCkc-_qsk78mZo8"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/Admin/Documents/Dev/project/bookingmovie/img/-2181-1663929656.jpg"
+								},
+								{
+									"key": "tenPhim",
+									"value": "Avatar 1",
+									"type": "default"
+								},
+								{
+									"key": "trailer",
+									"value": "https://www.youtube.com/watch?v=gq2xKJXYZ80",
+									"type": "default"
+								},
+								{
+									"key": "moTa",
+									"value": "Avatar hay lắm nha!!!",
+									"type": "default"
+								},
+								{
+									"key": "ngayKhoiChieu",
+									"value": "03/12/2022",
+									"type": "default"
+								},
+								{
+									"key": "hot",
+									"value": "true",
+									"type": "default"
+								},
+								{
+									"key": "dangChieu",
+									"value": "true",
+									"type": "default"
+								},
+								{
+									"key": "sapChieu",
+									"value": "false",
+									"type": "default"
+								},
+								{
+									"key": "danhGia",
+									"value": "4",
+									"type": "default"
+								},
+								{
+									"key": "maPhim",
+									"value": "1",
+									"type": "default"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/quan-ly-phim/lay-thong-tin-phim?maPhim=2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"quan-ly-phim",
+								"lay-thong-tin-phim"
+							],
+							"query": [
+								{
+									"key": "maPhim",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Quan Ly Dat Ve",
+			"item": [
+				{
+					"name": "Tao Lich Chieu",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6InR1YW5sb2NAZ21haWwuY29tIiwibWFMb2FpTmd1b2lEdW5nIjoiUXVhblRyaSIsImlhdCI6MTY4MDY4ODU4NiwiZXhwIjoxNzEyMjQ2MTg2fQ.VbYAayZjOy6KdLyV9lPZueSfJEUbyWcJ9oDFpgjP1pg"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "maPhim",
+									"value": "2",
+									"type": "default"
+								},
+								{
+									"key": "ngayChieuGioChieu",
+									"value": "03/02/2022",
+									"type": "default"
+								},
+								{
+									"key": "maRap",
+									"value": "5",
+									"type": "default"
+								},
+								{
+									"key": "giaVe",
+									"value": "50000",
+									"type": "default"
+								}
+							]
+						},
+						"url": "http://localhost:8080/api/quan-ly-dat-ve/them-ghe"
+					},
+					"response": []
+				},
+				{
+					"name": "Dat Ve",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6InR1YW5sb2NAZ21haWwuY29tIiwibWFMb2FpTmd1b2lEdW5nIjoiUXVhblRyaSIsImlhdCI6MTY4MDY4NTc5NiwiZXhwIjoxNzEyMjQzMzk2fQ.sdslG4Td27WApsPXiAqEPcLthPNFVCkc-_qsk78mZo8"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "taiKhoan",
+									"value": "tuanloc99",
+									"type": "default"
+								},
+								{
+									"key": "maLichChieu",
+									"value": "5",
+									"type": "default"
+								},
+								{
+									"key": "maGhe",
+									"value": "12",
+									"type": "default"
+								}
+							]
+						},
+						"url": "http://localhost:8080/api/quan-ly-dat-ve/dat-ve"
+					},
+					"response": []
+				},
+				{
+					"name": "Lay Danh Sach Phong Ve",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWlLaG9hbiI6InR1YW5sb2MiLCJlbWFpbCI6InR1YW5sb2NAZ21haWwuY29tIiwibWFMb2FpTmd1b2lEdW5nIjoiUXVhblRyaSIsImlhdCI6MTY4MDY4NTc5NiwiZXhwIjoxNzEyMjQzMzk2fQ.sdslG4Td27WApsPXiAqEPcLthPNFVCkc-_qsk78mZo8"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "taiKhoan",
+									"value": "tuanloc123",
+									"type": "default"
+								},
+								{
+									"key": "maLichChieu",
+									"value": "1",
+									"type": "default"
+								},
+								{
+									"key": "maGhe",
+									"value": "1",
+									"type": "default"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/quan-ly-dat-ve/lay-danh-sach-phong-ve?maLichChieu=7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"quan-ly-dat-ve",
+								"lay-danh-sach-phong-ve"
+							],
+							"query": [
+								{
+									"key": "maLichChieu",
+									"value": "7"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
